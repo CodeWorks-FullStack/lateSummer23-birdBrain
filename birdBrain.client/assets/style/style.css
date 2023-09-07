@@ -1,1 +1,13 @@
 /* BASIC STYLES HERE */
+
+.reporter-picture{
+  height: 10vh;
+  width: 10vh;
+}
+
+.bird-img{
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}

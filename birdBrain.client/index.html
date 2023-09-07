@@ -41,31 +41,26 @@
   <!-- SECTION -->
   <main>
 
-    <section id="auth-template">
-      <!-- TODO REMOVE THE AUTH TEMPLATE ONCE YOU VERIFY YOUR AUTH SETTINGS -->
+    <section id="router-view">
       <div class="container-fluid">
-        <div class="row my-3">
-          <div class="col-lg-5" id="auth-settings">
-            <div class="card p-2 skeleton-loader">
-              <div class="card-title p-2">
-                <div class="d-flex align-items-center">
-                  <div class="skeleton-loader avatar"></div>
-                  <div class="skeleton-loader text mx-2"></div>
+        <div id="birds" class="row mt-3">
+          <!-- STUB bird template -->
+          <!-- <div class="col-md-3">
+            <div class="rounded border border-dark border-2">
+              <img src="https://live.staticflickr.com/7217/7312655738_817ce1a768_z.jpg" alt="BIRD NAME"
+                class="img-fluid">
+              <div class="d-flex justify-content-between align-items-center p-1">
+                <div>
+                  <p class="fs-4">BIRD NAME</p>
+                  <p>👀 0</p>
                 </div>
-              </div>
-              <div class="card-body border-top">
-                <div class="skeleton-loader text block"></div>
-                <div class="skeleton-loader text block"></div>
-                <div class="skeleton-loader text block"></div>
+                <img class="img-fluid rounded-circle reporter-picture"
+                  src="https://unblob.blob.core.windows.net/authpics/JonathanManga.png" alt="REPORTER NAME">
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
-    </section>
-
-    <section id="router-view">
-      <!-- primary viewport -->
     </section>
 
 
@@ -77,6 +72,41 @@
       <p class="mb-0"><small>Made with 💖 by CodeWorks</small></p>
     </div>
   </footer>
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">BIRD DETAILS</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="birdDetails" class="modal-body">
+          <!-- STUB bird details -->
+          <!-- <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <img class="img-fluid" src="https://live.staticflickr.com/7217/7312655738_817ce1a768_z.jpg"
+                  alt="BIRD NAME">
+              </div>
+              <div class="col-md-6">
+                <h2>BIRD NAME</h2>
+                <img src="https://unblob.blob.core.windows.net/authpics/JonathanManga.png" alt="REPORT NAME"
+                  class="reporter-picture img-fluid rounded-circle">
+                <p>Reported by MICK on 12/12/1990</p>
+                <p>Size: JUICED</p>
+                <p>Flys? <i class="mdi mdi-penguin"></i></p>
+                <p>Flys? <i class="mdi mdi-airplane"></i></p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="https://cdn.auth0.com/js/auth0-spa-js/1.22/auth0-spa-js.production.js"></script>
